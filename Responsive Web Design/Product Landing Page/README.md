@@ -1,1 +1,0 @@
-<img src="https://assets.codepen.io/6148226/internal/screenshots/pens/JjExLwm.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1619848780&width=960">
