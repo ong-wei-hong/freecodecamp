@@ -1,0 +1,57 @@
+<html>
+  <link rel="stylesheet" href="Style.css">
+
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Computing Experience Survey Form</h1>
+    <p id="description" class="description text-center">Thank you for taking the time to share your experience</p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Name"/>
+</div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your currrent occupation?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="computing-job">Full time computing job</option>
+        <option value="non-computing-job">Full time non-computing job</option>
+        <option value="other">Other</option>
+        <option value="no">Prefer not to say</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What aspect of Computing are you interested in?<span class="clue">(Check all that apply)</span></p>
+      <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+      <label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
+      <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
+      <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox"> Open Source</label>
+      <label><input name="prefer" value="theoretical" type="checkbox" class="input-checkbox">Theoretical Computer Science</label>
+      <label><input name="prefer" value="artificial-intelligence" type="checkbox" class="input-checkbox">Artificial Intelligence</label>
+      <label><input name="prefer" value="system-security" type="checkbox" class="input-checkbox">Systems Security</label>
+    </div>
+   <div class="form-group">
+     <p>Any comments / suggestions?</p>
+     <textarea id="comments" class="input-textarea" name="comment" placeholder="comment / suggestion"></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+     <footer>
+    <span>Website template taken from freecodecamp.org</span>
+    </footer>
+  </form>
+ 
+</div>
+</html>
